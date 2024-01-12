@@ -1,7 +1,8 @@
 import { FriendListItem } from "../FriendListItem/FriendListItem";
+import css from '../FriendList/FriendList.module.css'
 
 export const FriendList = ({ friends }) => {
-    console.log(friends.lenght);
+    // console.log(friends.lenght);
 
     return <ul>
         {friends.map((even, idx )=> (

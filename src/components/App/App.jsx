@@ -7,8 +7,9 @@ import friends from "../../data/friends.json"
 import transactions from '../../data/transactions.json'
 import { Profile } from '../Profile/Profile';
 import { FriendList } from '../FriendList/FriendList';
+import { TransactionHistory } from '../TransactionHistory/TransactionHistory'
 
-
+console.log(transactions);
 
 
 const App = () => {
@@ -25,7 +26,8 @@ const App = () => {
               stats={even.stats}
            />
         ))}
-       <FriendList friends={friends} />
+        <FriendList friends={friends} />
+         <TransactionHistory items={transactions} />
       </>
     );
 

@@ -1,10 +1,10 @@
 // import clsx from "clsx";
-// import App from './App'
+import css from '../Profile/Profile.module.css'
 
 export const Profile = ({ name, tag, location, image, stats }) => {
-    return <div className="profile">
+    return <div className={css.profile }>
         <div className="description">
-            <img src={image} alt={name} className="avatar"/>
+            <img src={image} alt={name} width={300}  className={css.avatar }/>
             <p className="name">{name}</p>
             <p className="tag">@{tag}</p>
             <p className="location">{location}</p>
