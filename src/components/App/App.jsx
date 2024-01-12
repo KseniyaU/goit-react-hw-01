@@ -2,10 +2,11 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
-import userData from '../data/Profile.json'
-import friends from "../data/friends.json"
-import { Profile } from './Profile';
-import { FriendList } from './FriendList';
+import userData from '../../data/Profile.json'
+import friends from "../../data/friends.json"
+import transactions from '../../data/transactions.json'
+import { Profile } from '../Profile/Profile';
+import { FriendList } from '../FriendList/FriendList';
 
 
 
