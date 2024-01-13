@@ -1,7 +1,38 @@
 .profile {
-  background-color: aqua;
+  border: 5px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(225, 225, 220);
 }
 .avatar {
+  display: block;
+  margin: 20px auto;
   border-radius: 50%;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
+}
+.description {
+  background-color: rgb(225, 225, 220);
+}
+.name {
+  font-weight: bold;
+  font-size: 30px;
+}
+.tag {
+  color: rgb(146, 149, 149);
+}
+.location {
+  composes: tag;
+}
+.stats {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+
+  background-color: rgb(208, 208, 200);
+}
+.item {
+  display: flex;
+  height: 100px;
+  flex-direction: column;
+  border: 3px solid rgb(157, 152, 152);
 }

@@ -1,24 +1,24 @@
-// import clsx from "clsx";
+import clsx from "clsx";
 import css from '../Profile/Profile.module.css'
 
 export const Profile = ({ name, tag, location, image, stats }) => {
     return <div className={css.profile }>
-        <div className="description">
+        <div className={css.description}>
             <img src={image} alt={name} width={300}  className={css.avatar }/>
-            <p className="name">{name}</p>
-            <p className="tag">@{tag}</p>
-            <p className="location">{location}</p>
+            <p className={css.name}>{name}</p>
+            <p className={css.tag}>@{tag}</p>
+            <p className={css.location}>{location}</p>
         </div>
-        <ul className="stats">
-            <li>
+        <ul className={css.stats}>
+            <li className={css.item}>
                 <span className="label">Followers</span>
                 <span className="value">{stats.followers}</span>
             </li>
-            <li>
+            <li className={css.item}>
                 <span className="label">Views</span>
                 <span className="value">{stats.views}</span>
             </li>
-            <li>
+            <li className={css.item}>
                 <span className="label">Likes</span>
                 <span className="value">{stats.likes}</span>
             </li>
