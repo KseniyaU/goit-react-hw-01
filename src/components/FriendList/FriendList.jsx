@@ -4,7 +4,7 @@ import css from '../FriendList/FriendList.module.css'
 export const FriendList = ({ friends }) => {
     // console.log(friends.lenght);
 
-    return <ul>
+    return <ul className={ css.friends}>
         {friends.map((even, idx )=> (
             
                 // console.log(even.avatar);
