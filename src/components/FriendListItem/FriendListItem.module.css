@@ -13,4 +13,12 @@
   font-size: 30px;
 }
 .status {
+  font-size: 18px;
+}
+.active {
+  color: green;
+}
+
+.retired {
+  color: red;
 }

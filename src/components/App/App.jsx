@@ -9,9 +9,6 @@ import { Profile } from '../Profile/Profile';
 import { FriendList } from '../FriendList/FriendList';
 import { TransactionHistory } from '../TransactionHistory/TransactionHistory'
 
-console.log(transactions);
-
-
 const App = () => {
     return (
       <>
@@ -30,7 +27,5 @@ const App = () => {
          <TransactionHistory items={transactions} />
       </>
     );
-
-  
 };
 export default App;
