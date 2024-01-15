@@ -1,4 +1,3 @@
-import clsx from "clsx";
 import css from '../Profile/Profile.module.css'
 
 export const Profile = ({ name, tag, location, image, stats }) => {
